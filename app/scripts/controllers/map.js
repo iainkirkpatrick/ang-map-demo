@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('angMapDemoApp')
-  .controller('MainCtrl', function ($scope) {
+  .controller('MapCtrl', function ($scope) {
   	var tilesDict = {
         mapbox: {
             url: "http://{s}.tiles.mapbox.com/v3/envintage.map-29de0vu0/{z}/{x}/{y}.png",
